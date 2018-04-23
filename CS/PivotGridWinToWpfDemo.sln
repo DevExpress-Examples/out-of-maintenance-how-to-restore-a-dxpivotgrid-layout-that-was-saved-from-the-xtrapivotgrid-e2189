@@ -1,0 +1,26 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PivotLayoutLoader", "PivotLayoutLoader\PivotLayoutLoader.csproj", "{AEBD0BC7-0AF6-46EC-A385-3EDBFAC6FACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PivotLayoutCreator", "PivotLayoutCreator\PivotLayoutCreator.csproj", "{8A4F8467-D1AD-4C5E-BF1C-5C2B19C596E0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AEBD0BC7-0AF6-46EC-A385-3EDBFAC6FACD} = {AEBD0BC7-0AF6-46EC-A385-3EDBFAC6FACD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEBD0BC7-0AF6-46EC-A385-3EDBFAC6FACD}.Debug|x86.ActiveCfg = Debug|x86
+		{AEBD0BC7-0AF6-46EC-A385-3EDBFAC6FACD}.Debug|x86.Build.0 = Debug|x86
+		{AEBD0BC7-0AF6-46EC-A385-3EDBFAC6FACD}.Release|x86.ActiveCfg = Release|x86
+		{8A4F8467-D1AD-4C5E-BF1C-5C2B19C596E0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8A4F8467-D1AD-4C5E-BF1C-5C2B19C596E0}.Debug|x86.Build.0 = Debug|Any CPU
+		{8A4F8467-D1AD-4C5E-BF1C-5C2B19C596E0}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
